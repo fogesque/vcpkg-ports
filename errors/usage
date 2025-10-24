@@ -1,0 +1,8 @@
+errors provides CMake targets:
+
+    find_package(errors CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE errors::errors)
+
+For direct header inclusion:
+
+    #include <errors/errors.hpp>
